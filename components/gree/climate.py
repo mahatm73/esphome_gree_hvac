@@ -1,8 +1,8 @@
 import esphome.codegen as cg
 import esphome.config_validation as cv
 from esphome.components import climate, uart
-from esphome.components.climate.const import SUPPORT_SWING_MODE, CLIMATE_SWING_OFF, CLIMATE_SWING_ON
-from esphome.const import CONF_ID
+from esphome.components.climate.climate import SUPPORT_SWING_MODE, CLIMATE_SWING_OFF, CLIMATE_SWING_ON
+from esphome.const import CONF_ID  
 
 DEPENDENCIES = ['uart']
 
